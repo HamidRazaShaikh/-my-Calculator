@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "my-calculatro",
+    "calculator": "my-calculatro"
+  }
+}
