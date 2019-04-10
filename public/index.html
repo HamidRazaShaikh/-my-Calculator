@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script lang="Text/javascript" src="script.js"></script>
+
+</head>
+<body>
+<h1>Thanks for using our calculator. </h1>
+<fieldset id="title">
+    <legend id="legend">Calculator</legend>
+    <div>
+        <input type="text" id="input" readonly="readonly" placeholder="0" >
+
+    </div>
+    <table>
+        <tr>
+            <td><input type="button" id="mathx" name="X" value="X" onclick="multipication();"></td>
+            <td><input type="button" id="one" name="1" value="1" onclick="numdisplay(1);"></td>
+            <td><input type="button" id="two" name="2" value="2" onclick="numdisplay(2);"></td>
+            <td><input type="button" id="three" name="3" value="3" onclick="numdisplay(3);"></td>
+            <td><input type="button" id="CE" name="CE" value="CE" onclick="CE();" ></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="mathd" name="/" value="/" onclick="division ();" ></td>
+            <td><input type="button" id="four" name="four" value="4" onclick="numdisplay(4);"></td>
+            <td><input type="button" id="five" name="five" value="5" onclick="numdisplay(5);"></td>
+            <td><input type="button" id="six" name="six" value="6" onclick="numdisplay(6);"></td>
+            <td><input type="button" id="C" name="C" value="C"  onclick="clearone();"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="matha" name="+" value="+" onclick="addition();"></td>
+            <td><input type="button" id="seven" name="seven" value="7" onclick="numdisplay(7);"></td>
+            <td><input type="button" id="eight" name="eight" value="8" onclick="numdisplay(8);"></td>
+            <td><input type="button" id="nine" name="nine" value="9" onclick="numdisplay(9);"></td>
+            <td><input type="button" id="per" name="per" value="%" onclick="percent();"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="maths" name="-" value="-" onclick="subtraction ();"></td>
+            <td><input type="button" id="equal" name="equal" value="=" onclick="equal();"></td>
+            <td><input type="button" id="root" name="root" value="sqrt" onclick="sqirt();"></td>
+            <td><input type="button" id="zero" name="zero" value="0" onclick="numdisplay(0);"></td>
+            <td><input type="button" id="decimal" name="decimal" value="." onclick="decimal();"></td>
+
+        </tr>
+    </table>
+
+</fieldset>
+
+</body>
+</html>
